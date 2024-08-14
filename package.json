@@ -1,7 +1,7 @@
 {
-  "name": "css-frameworks-ca",
+  "name": "Workflow",
   "version": "1.0.0",
-  "description": "Test",
+  "description": "Course assignment for workflow, setting up a working environment and testing",
   "main": "index.js",
   "scripts": {
     "build": "sass src/scss:dist/css",
@@ -13,8 +13,8 @@
     "lint-fix": "eslint **/*.js --cache --fix",
     "prepare": "husky install"
   },
-  "keywords": [],
-  "author": "Noroff",
+  "keywords": ["workflow", "eslint", "prettier", "jest"], 
+  "author": "Noroff/Elin Jakobsen <elitho52256@stud.noroff.no>",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.22.0",
