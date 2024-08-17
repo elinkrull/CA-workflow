@@ -4,9 +4,13 @@ WORKFLOW
 
 * Project is configured to run ESLint on commit
 
+//Unit testing 
+
 * The login function stores a token when provided with valid credentials
 
 * The logout function clears the token from browser storage
+
+//E2E testing
 
 * The user can log in with the login form with valid credentials
 
@@ -14,29 +18,3 @@ WORKFLOW
 
 * The user can log out with the logout button
 
-
-UNIT TESTING NOTES
-
-//Import the function
-
-//Setup a test
-
-//Make assertions
-
-//Is this good enough?
-// - What happens if we supply bad arguments?
-// - What should happen?
-
-
-login.test.js
-
-// import { login } from "./login";
-// import { save } from "../../storage";
-
-// describe("login", () => {
-//   it("stores the token and login when login form is provided with valid credentials", async () => {
-//     expect(response.ok);
-//   });
-// });
-
-// it("throws an error if credentials is not valid");
